@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import { useRecoilState, useRecoilValue } from "recoil";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -34,6 +35,7 @@ function App(props) {
           </Route>
         </Switch>
       </div>
+      <Footer />
     </div>
   );
 }

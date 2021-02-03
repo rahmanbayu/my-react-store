@@ -68,30 +68,30 @@ function Navbar(props) {
 
           <div className="flex justify-between items-center lg:w-full lg:ml-6">
             <div className="space-x-4 hidden lg:block">
-              <NavLink to="/" exact activeClassName="text-violet-500 font-medium hover:text-violet-700" className="text-gray-400">
+              <NavLink to="/" exact activeClassName="text-violet-500 font-medium" className="text-gray-400 hover:text-violet-700">
                 Home
               </NavLink>
-              <NavLink to="/about" activeClassName="text-violet-500 font-medium hover:text-violet-700" className="text-gray-400">
+              <NavLink to="/about" activeClassName="text-violet-500 font-medium" className="text-gray-400 hover:text-violet-700">
                 About
               </NavLink>
-              <NavLink to="/shop" activeClassName="text-violet-500 font-medium hover:text-violet-700" className="text-gray-400">
+              <NavLink to="/shop" activeClassName="text-violet-500 font-medium" className="text-gray-400 hover:text-violet-700">
                 Shop
               </NavLink>
-              <NavLink to="/merch" activeClassName="text-violet-500 font-medium hover:text-violet-700" className="text-gray-400">
+              <NavLink to="/merch" activeClassName="text-violet-500 font-medium" className="text-gray-400 hover:text-violet-700">
                 Merch
               </NavLink>
             </div>
 
             <div className="flex items-center space-x-5">
               {theme === "light" ? (
-                <motion.div onClick={() => selectTheme("dark")} whileHover={{ scale: 1.1 }} className={`bg-gray-800 rounded-full flex items-center p-1 fixed bottom-0 right-0 mb-10 lg:mb-0 mr-6 lg:mr-0 lg:static`}>
+                <motion.div onClick={() => selectTheme("dark")} whileHover={{ scale: 1.1 }} className={`bg-gray-800 rounded-full flex items-center p-1 fixed bottom-0 right-0 mb-10 md:mb-16 lg:mb-0 mr-6 lg:mr-0 lg:static`}>
                   <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                   </svg>
                 </motion.div>
               ) : null}
               {theme === "dark" ? (
-                <motion.div onClick={() => selectTheme("light")} whileHover={{ scale: 1.1 }} className={`bg-gray-400 rounded-full flex items-center p-1 fixed bottom-0 right-0 mb-10 lg:mb-0 mr-6 lg:mr-0 lg:static`}>
+                <motion.div onClick={() => selectTheme("light")} whileHover={{ scale: 1.1 }} className={`bg-gray-400 rounded-full flex items-center p-1 fixed bottom-0 right-0 mb-10 md:mb-16 lg:mb-0 mr-6 lg:mr-0 lg:static`}>
                   <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
