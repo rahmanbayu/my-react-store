@@ -18,7 +18,7 @@ function Home(props) {
             </button>
           </div>
         </div>
-        <div className="bg-red-200 w-full md:w-2/3 h-96">
+        <div className="w-full md:w-2/3 h-96">
           <img src={landing} className="object-cover h-96 w-full" alt="" />
         </div>
       </div>
