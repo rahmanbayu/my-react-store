@@ -5,7 +5,7 @@ import produk1 from "../assets/images/produk1.png";
 function Home(props) {
   return (
     <div>
-      <div className="flex flex-col-reverse md:flex-row my-10">
+      <div className="flex flex-col-reverse md:flex-row mb-10 md:mt-10">
         <div className="bg-violet-500 p-6 w-full md:w-1/3 h-96 flex items-center justify-center">
           <div>
             <div className="text-white font-medium text-4xl">Space O'Book</div>
@@ -30,7 +30,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -40,7 +40,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -50,7 +50,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -60,7 +60,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -70,7 +70,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -80,7 +80,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -90,7 +90,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -100,7 +100,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -110,7 +110,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -120,7 +120,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -130,7 +130,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>
@@ -140,7 +140,7 @@ function Home(props) {
             <div className="mx-9 md:mx-4 group">
               <img src={produk1} className="w-full h-auto object-fill" alt="" />
               <div className="mt-3">
-                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-500">Moon Poster</div>
+                <div className="font-medium text-lg dark:text-white dark:group-hover:text-violet-400">Moon Poster</div>
                 <div className="text-gray-500 dark:text-gray-300">Rp 50.000</div>
               </div>
             </div>

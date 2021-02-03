@@ -30,7 +30,6 @@ const cartVariant = {
 function Navbar(props) {
   const [openMenu, setOpenMenu] = useState(false);
   const [openCart, setOpenCart] = useState(false);
-
   const [theme, setTheme] = useRecoilState(appTheme);
 
   const selectTheme = (value) => {
@@ -148,21 +147,21 @@ function Navbar(props) {
                 </div>
                 <div className="flex flex-wrap mt-10 -mx-2">
                   <div className="px-2 w-1/2">
-                    <div className="bg-violet-200 rounded-3xl text-sm flex items-center justify-center font-medium h-20">Games</div>
+                    <div className="bg-violet-200 dark:bg-violet-300 rounded-3xl text-sm flex items-center justify-center font-medium h-20 dark:text-white">Poster</div>
                   </div>
                   <div className="px-2 w-1/2">
-                    <div className="bg-blue-200 rounded-3xl text-sm flex items-center justify-center font-medium h-20">Apps</div>
+                    <div className="bg-blue-200 dark:bg-blue-300 rounded-3xl text-sm flex items-center justify-center font-medium h-20 dark:text-white">Toe Bag</div>
                   </div>
                   <div className="px-2 w-1/2 mt-4">
-                    <div className="bg-red-200 rounded-3xl text-sm flex items-center justify-center font-medium h-20">Apps</div>
+                    <div className="bg-red-200 dark:bg-red-300 rounded-3xl text-sm flex items-center justify-center font-medium h-20 dark:text-white">Note</div>
                   </div>
                   <div className="px-2 w-1/2 mt-4">
-                    <div className="bg-green-200 rounded-3xl text-sm flex items-center justify-center font-medium h-20">Apps</div>
+                    <div className="bg-green-200 dark:bg-green-300 rounded-3xl text-sm flex items-center justify-center font-medium h-20 dark:text-white">Design</div>
                   </div>
                 </div>
                 <NavLink to="/" className="mt-10 py-3 font-medium text-green-500 rounded-xl bg-green-200 flex justify-between items-center px-2">
                   <span>Order Table</span>
-                  <svg className="w-6 h-6 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-6 h-6 text-green-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
                       d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z"
@@ -171,9 +170,10 @@ function Navbar(props) {
                   </svg>
                 </NavLink>
                 <div className="mt-10 text-center space-y-2 flex flex-col">
-                  <Link className="text-gray-400 font-light">Feedback</Link>
-                  <Link className="text-gray-400 font-light">Tearm of Use</Link>
-                  <Link className="text-gray-400 font-light pb-7">Copyright</Link>
+                  <Link className="text-gray-400 font-light">Home</Link>
+                  <Link className="text-gray-400 font-light">About</Link>
+                  <Link className="text-gray-400 font-light">Shop</Link>
+                  <Link className="text-gray-400 font-light pb-7">Merch</Link>
                 </div>
               </motion.div>
             )}
